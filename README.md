@@ -9,3 +9,7 @@ With the docker library it would also be possible to enable things such as shutd
 Currently talk groups I have set up are all done by hand and a remote .txt file on a server updates the MMDVMs with the groups.
 
 The template for this is based off of https://github.com/afourmy/flask-gentelella
+
+
+User: admin
+Pass: Password1
