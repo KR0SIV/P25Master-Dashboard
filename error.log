@@ -1,0 +1,105 @@
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-741-028
+INFO:werkzeug:76.189.27.42 - - [07/Apr/2018 20:31:29] "GET /talkgroups/TG50100 HTTP/1.1" 404 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT "User".id AS "User_id", "User".username AS "User_username", "User".email AS "User_email", "User".password AS "User_password" 
+FROM "User" 
+WHERE "User".id = ?
+ LIMIT ? OFFSET ?
+INFO:sqlalchemy.engine.base.Engine:('1', 1, 0)
+INFO:werkzeug:76.189.27.42 - - [07/Apr/2018 20:31:30] "GET /favicon.ico HTTP/1.1" 500 -
+INFO:werkzeug: * Running on http://0.0.0.0:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 118-741-028
+INFO:werkzeug:76.189.27.42 - - [07/Apr/2018 20:31:50] "GET / HTTP/1.1" 302 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT "User".id AS "User_id", "User".username AS "User_username", "User".email AS "User_email", "User".password AS "User_password" 
+FROM "User" 
+WHERE "User".id = ?
+ LIMIT ? OFFSET ?
+INFO:sqlalchemy.engine.base.Engine:('1', 1, 0)
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:76.189.27.42 - - [07/Apr/2018 20:31:51] "GET /login HTTP/1.1" 302 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT "User".id AS "User_id", "User".username AS "User_username", "User".email AS "User_email", "User".password AS "User_password" 
+FROM "User" 
+WHERE "User".id = ?
+ LIMIT ? OFFSET ?
+INFO:sqlalchemy.engine.base.Engine:('1', 1, 0)
+DEBUG:docker.utils.config:Trying paths: ['/home/corrosive/.docker/config.json', '/home/corrosive/.dockercfg']
+DEBUG:docker.utils.config:No config file found
+DEBUG:docker.utils.config:Trying paths: ['/home/corrosive/.docker/config.json', '/home/corrosive/.dockercfg']
+DEBUG:docker.utils.config:No config file found
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/json?all=0&limit=-1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/cb17e87c8877625f89e615453f7c5170b4e64e6c43541b71b33d433f541cd601/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/1067e2650c55d85c5b4e06ce79dbbc1f3283dcc786384e36a33213278d0ce776/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/12abc70db8a78b7bdc5ed478e1d8c17142ee5aef1bea8524ccc14a5aa6ea8370/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/ada37deacec4817e9beb3396fba5b3780ea75c51cb57ba1d6e5a65157c3ed765/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/86e97f3ab98be874d2534384c91c8f11e4ae33d38c644c525eab8119c5c07b0f/json HTTP/1.1" 200 None
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:76.189.27.42 - - [07/Apr/2018 20:31:51] "GET /home/index HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT "User".id AS "User_id", "User".username AS "User_username", "User".email AS "User_email", "User".password AS "User_password" 
+FROM "User" 
+WHERE "User".id = ?
+ LIMIT ? OFFSET ?
+INFO:sqlalchemy.engine.base.Engine:('1', 1, 0)
+DEBUG:docker.utils.config:Trying paths: ['/home/corrosive/.docker/config.json', '/home/corrosive/.dockercfg']
+DEBUG:docker.utils.config:No config file found
+DEBUG:docker.utils.config:Trying paths: ['/home/corrosive/.docker/config.json', '/home/corrosive/.dockercfg']
+DEBUG:docker.utils.config:No config file found
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/json?all=0&limit=-1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/cb17e87c8877625f89e615453f7c5170b4e64e6c43541b71b33d433f541cd601/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/1067e2650c55d85c5b4e06ce79dbbc1f3283dcc786384e36a33213278d0ce776/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/12abc70db8a78b7bdc5ed478e1d8c17142ee5aef1bea8524ccc14a5aa6ea8370/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/ada37deacec4817e9beb3396fba5b3780ea75c51cb57ba1d6e5a65157c3ed765/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/86e97f3ab98be874d2534384c91c8f11e4ae33d38c644c525eab8119c5c07b0f/json HTTP/1.1" 200 None
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:76.189.27.42 - - [07/Apr/2018 20:31:52] "GET /home/index HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT "User".id AS "User_id", "User".username AS "User_username", "User".email AS "User_email", "User".password AS "User_password" 
+FROM "User" 
+WHERE "User".id = ?
+ LIMIT ? OFFSET ?
+INFO:sqlalchemy.engine.base.Engine:('1', 1, 0)
+DEBUG:docker.utils.config:Trying paths: ['/home/corrosive/.docker/config.json', '/home/corrosive/.dockercfg']
+DEBUG:docker.utils.config:No config file found
+DEBUG:docker.utils.config:Trying paths: ['/home/corrosive/.docker/config.json', '/home/corrosive/.dockercfg']
+DEBUG:docker.utils.config:No config file found
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/json?all=0&limit=-1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/cb17e87c8877625f89e615453f7c5170b4e64e6c43541b71b33d433f541cd601/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/1067e2650c55d85c5b4e06ce79dbbc1f3283dcc786384e36a33213278d0ce776/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/12abc70db8a78b7bdc5ed478e1d8c17142ee5aef1bea8524ccc14a5aa6ea8370/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/ada37deacec4817e9beb3396fba5b3780ea75c51cb57ba1d6e5a65157c3ed765/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/86e97f3ab98be874d2534384c91c8f11e4ae33d38c644c525eab8119c5c07b0f/json HTTP/1.1" 200 None
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:76.189.27.42 - - [07/Apr/2018 20:31:52] "GET /home/index HTTP/1.1" 200 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT "User".id AS "User_id", "User".username AS "User_username", "User".email AS "User_email", "User".password AS "User_password" 
+FROM "User" 
+WHERE "User".id = ?
+ LIMIT ? OFFSET ?
+INFO:sqlalchemy.engine.base.Engine:('1', 1, 0)
+DEBUG:docker.utils.config:Trying paths: ['/home/corrosive/.docker/config.json', '/home/corrosive/.dockercfg']
+DEBUG:docker.utils.config:No config file found
+DEBUG:docker.utils.config:Trying paths: ['/home/corrosive/.docker/config.json', '/home/corrosive/.dockercfg']
+DEBUG:docker.utils.config:No config file found
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/json?all=0&limit=-1&size=0&trunc_cmd=0 HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/cb17e87c8877625f89e615453f7c5170b4e64e6c43541b71b33d433f541cd601/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/1067e2650c55d85c5b4e06ce79dbbc1f3283dcc786384e36a33213278d0ce776/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/12abc70db8a78b7bdc5ed478e1d8c17142ee5aef1bea8524ccc14a5aa6ea8370/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/ada37deacec4817e9beb3396fba5b3780ea75c51cb57ba1d6e5a65157c3ed765/json HTTP/1.1" 200 None
+DEBUG:urllib3.connectionpool:http://localhost:None "GET /v1.35/containers/86e97f3ab98be874d2534384c91c8f11e4ae33d38c644c525eab8119c5c07b0f/json HTTP/1.1" 200 None
+INFO:sqlalchemy.engine.base.Engine:ROLLBACK
+INFO:werkzeug:76.189.27.42 - - [07/Apr/2018 20:31:53] "GET /home/index HTTP/1.1" 200 -
+INFO:werkzeug:76.189.27.42 - - [07/Apr/2018 20:31:54] "GET /talkgroups/TG50100 HTTP/1.1" 404 -
+INFO:sqlalchemy.engine.base.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.base.Engine:SELECT "User".id AS "User_id", "User".username AS "User_username", "User".email AS "User_email", "User".password AS "User_password" 
+FROM "User" 
+WHERE "User".id = ?
+ LIMIT ? OFFSET ?
+INFO:sqlalchemy.engine.base.Engine:('1', 1, 0)
+INFO:werkzeug:76.189.27.42 - - [07/Apr/2018 20:31:55] "GET /favicon.ico HTTP/1.1" 500 -
